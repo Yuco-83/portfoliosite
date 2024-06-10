@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Favicon_-_Sort" data-name="Favicon - Sort" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #000305;
+        stroke-width: 0px;
+      }
+    </style>
+  </defs>
+  <path class="cls-1" d="m66.37,6.13l1.12-1.22.37-.4L72,0h0S0,0,0,0v72h72v-38.25h-4.5v33.35l-26.51-28.85-2.07-2.25,2.07-2.25,25.38-27.62Zm-32.62,61.37H4.5v-29.25h29.25v29.25Zm0-33.75H4.5V4.5h29.25v29.25Zm28.27,33.75h-23.77v-25.87l23.77,25.87Zm-23.77-37.13V4.5h23.77l-23.77,25.87Z"/>
+</svg>

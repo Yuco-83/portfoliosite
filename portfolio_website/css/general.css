@@ -1,0 +1,152 @@
+html {
+  /* Color Palette */
+  --primary: var(#067eed); /* 10% */
+  --secondary: var(#000305); /* 30% */
+  --background: var(#f3f9ff); /* 60% */
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+body {
+  margin: 0;
+  padding: 0;
+}
+header {
+  width: 100%;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  background-color: #000305;
+}
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  padding: 10px 10%;
+  color: #067eed;
+}
+
+.logo {
+  display: flex;
+  height: auto;
+  color: #067eed;
+}
+.logo img {
+  width: 40px;
+  padding: 5px 0 0 0;
+}
+
+/* DESKTOP-NAV */
+.nav {
+  flex: 1;
+  text-align: right;
+}
+.nav-links {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.nav-links li {
+  display: inline;
+  margin-left: 20px;
+}
+.nav-links a {
+  color: #f3f9ff;
+  font-weight: 600;
+  font-size: 20px;
+  /* font-variant-caps: all-petite-caps; */
+}
+.nav-links a:hover {
+  text-decoration: none;
+  color: #067eed;
+}
+
+/* BURGER-TOGGLE */
+.burger {
+  display: none;
+  cursor: pointer;
+  position: static;
+}
+.burger div {
+  width: 30px;
+  height: 2.5px;
+  background-color: #f3f9ff;
+  margin: 10px;
+  transition: all 0.3s ease;
+}
+/* MOBILE-NAV */
+.mobile-nav {
+  position: fixed;
+  top: auto;
+  left: 0;
+  width: 100%;
+  background-color: #000305;
+  z-index: 2;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 1s ease, visibility 1s ease;
+}
+.mobile-nav.active {
+  opacity: 1;
+  visibility: visible;
+}
+.mobile-nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+}
+.mobile-nav li {
+  padding: 10px 0;
+}
+.mobile-nav a {
+  text-decoration: none;
+  color: #f3f9ff;
+  font-size: 1.5rem;
+}
+.mobile-nav a:hover {
+  text-decoration: none;
+  color: #067eed;
+}
+
+footer {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  background-color: #f3f9ff;
+}
+
+/* FONTS */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "kaneda-gothic", sans-serif;
+  font-style: normal;
+}
+p,
+a {
+  font-family: "poppins", sans-serif;
+  font-style: normal;
+}
+
+@media screen and (max-width: 650px) {
+  .nav {
+    display: none; /* Skjuler DESKTOP-NAV navigation på små skærme */
+  }
+
+  .burger {
+    display: block; /* Viser BURGER-TOGGLE på små skærme */
+  }
+}
