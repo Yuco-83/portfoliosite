@@ -2,7 +2,31 @@ h1 {
   font-weight: 700;
   font-size: 100px;
 }
+h2 {
+  font-weight: 700;
+  font-size: 80px;
+}
+h3 {
+  font-weight: 700;
+  font-size: 60px;
+}
+h4 {
+  font-weight: 700;
+  font-size: 40px;
+}
+h5 {
+  font-weight: 700;
+  font-size: 30px;
+}
+h6 {
+  font-weight: 700;
+  font-size: 20px;
+}
 p {
   font-weight: 400;
   font-size: 16;
+}
+p1 {
+  font-weight: 400;
+  font-size: 20px;
 }
