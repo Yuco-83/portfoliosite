@@ -21,7 +21,7 @@
     align-items: center;
     align-content: space-around;
     height: 100%;
-    padding: 40px 10% 40px 10%;
+    padding: 50px 10% 50px 10%;
     background-color: var(--background);
   }
   .body_section {
@@ -60,6 +60,14 @@
     font-size: 260px;
     display: flex;
     justify-content: center;
+  }
+  h2 {
+    font-size: 80px;
+    display: flex;
+  }
+  h3 {
+    font-size: 60px;
+    display: flex;
   }
 
   p1 {

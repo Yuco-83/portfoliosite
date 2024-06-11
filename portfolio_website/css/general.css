@@ -57,13 +57,13 @@ header {
   margin: 0;
 }
 .nav-links li {
-  display: inline;
-  margin-left: 20px;
+  display: inline-flex;
+  margin: 0 0 0 50px;
 }
 .nav-links a {
   color: var(--background);
   font-weight: 600;
-  font-size: 20px;
+  font-size: 18px;
   /* font-variant-caps: all-petite-caps; */
 }
 .nav-links a:hover {
@@ -238,27 +238,30 @@ h1 {
 }
 h2 {
   font-weight: 700;
-  font-size: 80px;
+  font-size: 60px;
+  display: flex;
+  justify-content: center;
+  padding-bottom: 30px;
 }
 h3 {
   font-weight: 700;
-  font-size: 60px;
+  font-size: 40px;
 }
 h4 {
   font-weight: 700;
-  font-size: 40px;
+  font-size: 30px;
 }
 h5 {
   font-weight: 700;
-  font-size: 30px;
+  font-size: 20px;
 }
 h6 {
   font-weight: 700;
-  font-size: 20px;
+  font-size: 16px;
 }
 p {
   font-weight: 400;
-  font-size: 16;
+  font-size: 16px;
 }
 p1 {
   display: flex;
@@ -281,6 +284,9 @@ p3 {
   justify-content: right;
   margin: -20px 0 80px;
 }
-a {
+
+.projekter a {
+  display: flex;
+  color: var(--secondary);
   padding: 5px;
 }
