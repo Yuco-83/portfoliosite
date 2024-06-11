@@ -290,3 +290,8 @@ p3 {
   color: var(--secondary);
   padding: 5px;
 }
+.img2 {
+  align-content: center;
+  max-width: 80%;
+  margin: 0 50px 20px 0;
+}

@@ -88,4 +88,9 @@
     justify-content: right;
     margin: -20px 0 80px;
   }
+  img {
+    max-width: 60%;
+    float: left;
+    margin-right: 50px;
+  }
 }
