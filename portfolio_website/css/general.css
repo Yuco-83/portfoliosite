@@ -119,9 +119,29 @@ header {
 }
 
 /* MAIN */
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: space-around;
+  height: 600px;
+  padding: 40px 10% 40px 10%;
+  background-color: #f3f9ff;
+}
+/* section {
+  width: 100%;
+
+  padding: 0;
+  margin: 0 auto;
+} */
+.body_section {
+  display: flexbox;
+  align-items: center;
+  justify-content: center;
+}
 
 /* FOOTER */
-.footer {
+footer {
   width: 100%;
   margin: 0;
   padding: 0;
@@ -136,6 +156,7 @@ header {
   padding: 40px 10% 40px 10%;
   margin: 0 auto;
   color: #f3f9ff;
+  justify-content: center;
 }
 
 .footer-logo {
@@ -165,7 +186,8 @@ header {
   text-decoration: none;
   padding: 4px;
   background-color: #f3f9ff;
-  margin: 0 10px;
+  margin: 15px 10px 0;
+  border: 3px;
   border-radius: 0;
 }
 .social_icons a i {
@@ -177,7 +199,6 @@ header {
   background-color: #111;
   transition: 0.5s;
 }
-
 .social_icons a:hover i {
   color: #067eed;
   transition: 0.5s;
@@ -195,17 +216,70 @@ h6 {
 }
 p,
 p1,
+p2,
+p3 {
+  font-family: "poppins", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.5em;
+}
 a {
   font-family: "poppins", sans-serif;
   font-style: normal;
 }
 
-@media screen and (max-width: 650px) {
-  .nav {
-    display: none; /* Skjuler DESKTOP-NAV navigation på små skærme */
-  }
-
-  .burger {
-    display: block; /* Viser BURGER-TOGGLE på små skærme */
-  }
+h1 {
+  font-weight: 700;
+  font-size: 100px;
+  display: flex;
+  justify-content: center;
+}
+h2 {
+  font-weight: 700;
+  font-size: 80px;
+}
+h3 {
+  font-weight: 700;
+  font-size: 60px;
+}
+h4 {
+  font-weight: 700;
+  font-size: 40px;
+}
+h5 {
+  font-weight: 700;
+  font-size: 30px;
+}
+h6 {
+  font-weight: 700;
+  font-size: 20px;
+}
+p {
+  font-weight: 400;
+  font-size: 16;
+}
+p1 {
+  display: flex;
+  font-weight: 400;
+  font-size: 20px;
+  justify-content: left;
+  margin: 5px 0 50px;
+}
+p2 {
+  display: flex;
+  font-weight: 400;
+  font-size: 20px;
+  justify-content: center;
+  margin: -20px 0 80px;
+}
+p3 {
+  display: flex;
+  font-weight: 400;
+  font-size: 20px;
+  justify-content: right;
+  margin: -20px 0 80px;
+}
+a {
+  padding: 5px;
 }

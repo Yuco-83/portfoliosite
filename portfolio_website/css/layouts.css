@@ -1,32 +1,70 @@
-h1 {
-  font-weight: 700;
-  font-size: 100px;
+/* MOBILE VERSION */
+.title {
+  display: block;
+  justify-content: center;
 }
-h2 {
-  font-weight: 700;
-  font-size: 80px;
+
+@media screen and (max-width: 650px) {
+  .nav {
+    display: none; /* Skjuler DESKTOP-NAV navigation på små skærme */
+  }
+
+  .burger {
+    display: block; /* Viser BURGER-TOGGLE på små skærme */
+  }
 }
-h3 {
-  font-weight: 700;
-  font-size: 60px;
-}
-h4 {
-  font-weight: 700;
-  font-size: 40px;
-}
-h5 {
-  font-weight: 700;
-  font-size: 30px;
-}
-h6 {
-  font-weight: 700;
-  font-size: 20px;
-}
-p {
-  font-weight: 400;
-  font-size: 16;
-}
-p1 {
-  font-weight: 400;
-  font-size: 20px;
+
+@media (min-width: 768px) {
+  .footer-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .footer {
+    background-color: #000305;
+    color: #067eed;
+    padding: 30px 0;
+  }
+
+  .footer-column {
+    text-align: justify;
+  }
+
+  .social_icons {
+    justify-content: left;
+    padding-top: 15px;
+  }
+  .footer-logo {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    height: auto;
+    color: #067eed;
+  }
+  .cr {
+    text-align: right;
+  }
+  h1 {
+    font-size: 260px;
+    display: flex;
+    justify-content: center;
+  }
+
+  p1 {
+    font-weight: 400;
+    font-size: 20px;
+    justify-content: left;
+    margin: -20px 0 80px;
+  }
+  p2 {
+    font-weight: 400;
+    font-size: 20px;
+    justify-content: left;
+    margin: -20px 0 80px;
+  }
+  p3 {
+    font-weight: 400;
+    font-size: 20px;
+    justify-content: right;
+    margin: -20px 0 80px;
+  }
 }
